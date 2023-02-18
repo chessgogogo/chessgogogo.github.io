@@ -30,5 +30,4 @@ class Scratch3NewBlocks {
         log.log(text);
     }
 }
-
-module.exports = Scratch3NewBlocks;
+Scratch.extensions.register(new Scratch3NewBlocks());
